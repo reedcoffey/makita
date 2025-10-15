@@ -1,0 +1,97 @@
+* {
+    position: relative;
+    margin: 0 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.darksection {
+   background-color: rgb(181, 181, 181);
+   width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  position: fixed;
+  z-index: 10;
+  margin-top: -10%;
+} 
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 44px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.image-cropper {
+  width: 30vw;
+  height: 30vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.header {
+
+}
+
+.left { 
+    text-align: left; 
+} 
+
+.right { 
+    text-align: right; 
+} 
+
+.h1 { display: inline-block; width: 50%; margin: 0; } 
+
+.textcontainer {
+  display: flex;}
+
+.textcontainer div {;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.sectionheader {
+    width: 33vw; 
+    text-align: center;"}
+
+.fifty:before {
+  background: green;
+  height: 50px;
+  display: block;
+  content: '';
+}
