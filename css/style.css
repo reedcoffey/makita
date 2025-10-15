@@ -5,24 +5,25 @@
 
 html {
 scroll-behavior: smooth;
+background-color: rgb(12, 39, 23);
 }
 
 .darksection {
-   background-color: rgb(181, 181, 181);
+   background-color: rgb(9, 34, 20);
    width: 100%;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(62, 255, 149);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   width: 100%;
   flex-direction: row;
-  position: fixed;
-  z-index: 10;
-  margin-top: -10%;
+  position:fixed; 
+  z-index: 10; 
+  margin-top: -250px;
 } 
 
 /* Style the links inside the navigation bar */
@@ -33,6 +34,7 @@ scroll-behavior: smooth;
   padding: 44px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding-top: 200px;
 }
 
 /* Change the color of links on hover */
@@ -89,9 +91,19 @@ img {
     width: 33vw; 
     text-align: center;"}
 
-.fifty:before {
-  background: green;
-  height: 50px;
-  display: block;
-  content: '';
+.TEST {
+scroll-margin-top: 500px; 
 }
+
+section {
+  background: red;
+  height: 100vh;
+  text-align: center;
+  font-size: 5em;
+}
+
+
+#about, #research, #publications {
+  scroll-margin-top: 10vh;
+}
+
