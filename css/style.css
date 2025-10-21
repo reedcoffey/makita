@@ -45,7 +45,7 @@ background-color: rgb(12, 39, 23);
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #9ccbba;
   color: white;
 }
 
@@ -64,18 +64,6 @@ img {
   width: auto;
 }
 
-.header {
-
-}
-
-.left { 
-    text-align: left; 
-} 
-
-.right { 
-    text-align: right; 
-} 
-
 .h1 { display: inline-block; width: 50%; margin: 0; } 
 
 .textcontainer {
@@ -90,20 +78,3 @@ img {
 .sectionheader {
     width: 33vw; 
     text-align: center;"}
-
-.TEST {
-scroll-margin-top: 500px; 
-}
-
-section {
-  background: red;
-  height: 100vh;
-  text-align: center;
-  font-size: 5em;
-}
-
-
-#about, #research, #publications {
-  scroll-margin-top: 10vh;
-}
-
